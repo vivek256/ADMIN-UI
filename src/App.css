@@ -1,0 +1,127 @@
+#root,html,body{
+  width:100vw;
+  height:100vh;
+  margin:0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+
+#search-container input{
+  width: 1120px;
+  padding: 20px;
+  height:30px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  border: 1.5px solid black;
+
+}
+
+#search-container button{
+  height: 30px;
+  /* padding: 10px; */
+}
+
+#search-container button:hover{
+  cursor: pointer;
+}
+
+table{
+  margin:  auto;
+  border-collapse: collapse;
+
+}
+
+tr{
+  border: 1.5px solid black;
+
+
+}
+
+td,th{
+  width:200px;
+  padding: 10px;
+  
+
+}
+
+ul>li{
+list-style: none;
+display: inline-block;
+border: 1px solid black;
+padding: 10px;
+
+}
+
+input[type='checkbox']{
+  width: 17px;
+  height: 20px;
+  accent-color: rgb(61, 59, 59);
+
+}
+
+.action{
+  padding: 4px;
+  width: 80px;
+  margin: 0 4px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 0;
+}
+
+.action:hover{
+  cursor: pointer;
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid;
+}
+
+.paging{
+  /* margin:20px 0 100px 0;
+  width:1000px; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+justify-content: flex-start;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+.paging button{
+  padding: 10px;
+}
+.paging>div{
+margin-left: 200px;
+}
+
+.paging>div>button{
+  padding: 5px;
+  margin: 3px;
+  width: 50px;
+  border-radius: 4px;
+  border: 0.5px solid black;
+}
+
+.paging>div>button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.paging .bottom-delete-button{
+
+  margin-left:80px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  border: 0;
+  height: fit-content;
+}
+
+.paging .bottom-delete-button:hover{
+  cursor: pointer;
+  background-color: brown;
+
+}
+
